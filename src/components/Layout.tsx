@@ -52,7 +52,7 @@ export default function Layout() {
         <p className="wrap py-2 text-center font-mono text-[11.5px] tracking-wide sm:text-[12px]">
           <span className="mr-2 inline-block rounded-sm bg-go px-1.5 font-medium text-ink">DEMO</span>
           Gapless is a fictional product — a portfolio landing page by{' '}
-          <a href="https://iquee.tech" className="underline underline-offset-2 hover:text-go">iQuee</a>. No real signups.
+          <a href="https://iquee.tech" className="underline underline-offset-2 hover:text-go">iQuee</a>. Signups go to a demo database.
         </p>
       </div>
       <header className={`sticky top-0 z-50 border-b transition-colors ${scrolled || open ? 'border-line bg-paper/95 backdrop-blur' : 'border-transparent bg-paper'}`}>
@@ -97,8 +97,8 @@ export default function Layout() {
 function Footer() {
   const cols = [
     { h: 'Product', l: [['Features', '/#features'], ['Pricing', '/pricing'], ['Integrations', '/#integrations'], ['Changelog', '/changelog']] },
-    { h: 'Company', l: [['Customers', '/#stories'], ['FAQ', '/#faq'], ['Join the beta', '/#signup']] },
-    { h: 'Legal', l: [['Privacy', '/privacy'], ['Terms (demo)', '/privacy#terms']] },
+    { h: 'Company', l: [['Customers', '/#stories'], ['FAQ', '/#faq'], ['Join the beta', '/#signup'], ['Contact sales', '/contact']] },
+    { h: 'Legal', l: [['Privacy', '/privacy'], ['Terms (demo)', '/privacy#terms'], ['Admin (demo)', '/admin']] },
   ]
   return (
     <footer className="border-t border-ink bg-paper">
