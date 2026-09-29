@@ -2,9 +2,9 @@ import { useTitle } from '../lib/useTitle'
 
 const SECTIONS = [
   ['This is a demo', 'Gapless is a fictional product created as a portfolio piece by iQuee. There is no company, no service and no data processing behind this website. This page is placeholder text showing where a real privacy policy would live.'],
-  ['What this site stores', 'If you use the waitlist form, the details you type (name, email, clinic, team size) are saved in your own browser’s localStorage under the key “gapless.waitlist”. They are never sent to a server. You can remove them with the “Clear demo data” button or by clearing site data in your browser.'],
+  ['What this site stores', 'If you use the waitlist or contact form, the details you type (name, email, clinic, team size or message) are sent to the demo API and stored in a MySQL database on the demo server, together with a salted hash of your IP address (used only for abuse prevention; the raw IP is not stored). No emails are sent and the data is never shared or used for marketing. The public demo admin only shows masked email addresses. Please use a test address if you prefer.'],
   ['Cookies & analytics', 'This demo sets no cookies and loads no analytics, advertising or tracking scripts. Fonts are self-hosted.'],
-  ['Third parties', 'No data is shared with anyone. Product and company names mentioned on the site (for example calendar or payment providers) are used as plain text for illustration only.'],
+  ['Third parties', 'No data is shared with anyone; the demo API and database are self-hosted on the same server as this site. Product and company names mentioned on the site (for example calendar or payment providers) are used as plain text for illustration only.'],
   ['In a real product', 'A production policy would cover: the legal entity and contact details; categories of personal and health data processed; legal bases; retention periods; sub-processors and hosting regions; security measures; HIPAA/GDPR roles (e.g. business associate / processor); and how patients and clinics can exercise their rights.'],
 ]
 

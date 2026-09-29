@@ -12,7 +12,7 @@ export function PricingSection() {
         <Reveal className="grid gap-8 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-7">
             <p className="eyebrow">Pricing</p>
-            <h2 id="pricing-title" className="h2 mt-5">Priced per clinic, not per chair.</h2>
+            <h2 id="pricing-title" className="h2 mt-5">Priced per location, not per chair.</h2>
           </div>
           <div className="lg:col-span-5 lg:justify-self-end">
             <p className="mb-5 max-w-sm text-[17px] leading-relaxed text-ink-2">14 days free on every plan. One refilled slot a month usually covers Solo.</p>

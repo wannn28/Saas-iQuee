@@ -140,7 +140,7 @@ export const FAQS = [
   },
   {
     q: 'Is patient data stored securely?',
-    a: 'In the real product this would be the place to describe encryption, hosting region and compliance (HIPAA, GDPR, etc.). This is a portfolio demo — no data is collected, and nothing you type on this site leaves your browser.',
+    a: 'In the real product this would be the place to describe encryption, hosting region and compliance (HIPAA, GDPR, etc.). This is a portfolio demo: the waitlist and contact forms store what you type in a demo MySQL database (emails are never sent or shared). Use a test address if you prefer.',
   },
   {
     q: 'What happens after the 14-day trial?',
